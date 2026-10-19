@@ -1,0 +1,17 @@
+{
+  "manufactured_finest_max_error_V": 7.389721142411765e-05,
+  "manufactured_final_order": 1.9959935752471785,
+  "finest_reference": {
+    "h_nm": 0.125,
+    "FVM_barrier_eV": 0.27125575181654604,
+    "FEM_barrier_eV": 0.27114504953904783,
+    "potential_rms_difference_V": 0.0006715720996351657,
+    "full_domain_max_difference_V": 0.027874598272881412,
+    "contact_excluded_max_difference_V": 0.0007672539641592202
+  },
+  "long_channel_max_error_V": 4.8330828901210765e-06,
+  "relative_gauss_error": 1.1225449606019539e-14,
+  "relative_capacitance_asymmetry": 2.1294657002263182e-16,
+  "relative_capacitance_row_sum": 6.3883971006789544e-15,
+  "normalized_linear_residual": 9.496425542148e-16
+}

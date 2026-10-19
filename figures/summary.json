@@ -1,0 +1,97 @@
+{
+  "device": {
+    "length_nm": 30.0,
+    "silicon_nm": 10.0,
+    "oxide_nm": 2.0,
+    "oxide_k": 3.9,
+    "silicon_k": 11.7,
+    "acceptors_cm3": 1e+17,
+    "contact_V": 0.9,
+    "flatband_V": 0.0
+  },
+  "h_nm": 0.5,
+  "barrier_0p5V_0p7V": {
+    "barrier_eV": 0.2715232605023591,
+    "x_barrier_nm": 11.769884536113736,
+    "minimum_potential_V": 0.6284767394976409
+  },
+  "dibl": {
+    "threshold_low_V": 0.6498755373930614,
+    "threshold_high_V": 0.5934271630203507,
+    "dibl_mV_V": 86.84365288109333
+  },
+  "terminal_order": [
+    "source",
+    "drain",
+    "bottom_gate",
+    "top_gate"
+  ],
+  "terminal_charge_C_per_m": [
+    6.7931170768894e-11,
+    1.926393556259598e-10,
+    -1.2788199824642603e-10,
+    -1.2788199824642561e-10
+  ],
+  "fixed_body_charge_C_per_m": -4.806529902e-12,
+  "relative_gauss_error": 1.1225449606019539e-14,
+  "relative_capacitance_asymmetry": 2.1294657002263182e-16,
+  "relative_capacitance_row_sum": 6.3883971006789544e-15,
+  "min_capacitance_eigenvalue_F_per_m": 7.754818106456861e-25,
+  "normalized_linear_residual": 9.496425542148e-16,
+  "design_search": [
+    {
+      "silicon_nm": 6,
+      "h_nm": 0.5,
+      "minimum_length_nm": 26.225434289598876,
+      "dibl_mV_V": 50.00004110848683,
+      "goal_mV_V": 50.0
+    },
+    {
+      "silicon_nm": 10,
+      "h_nm": 0.5,
+      "minimum_length_nm": 35.547308732135505,
+      "dibl_mV_V": 49.99133236875816,
+      "goal_mV_V": 50.0
+    },
+    {
+      "silicon_nm": 16,
+      "h_nm": 0.5,
+      "minimum_length_nm": 48.34117146759072,
+      "dibl_mV_V": 49.99329918732993,
+      "goal_mV_V": 50.0
+    },
+    {
+      "silicon_nm": 6,
+      "h_nm": 0.25,
+      "minimum_length_nm": 26.24814557335534,
+      "dibl_mV_V": 49.999426209409535,
+      "goal_mV_V": 50.0
+    },
+    {
+      "silicon_nm": 10,
+      "h_nm": 0.25,
+      "minimum_length_nm": 35.56317745029635,
+      "dibl_mV_V": 49.991313123498244,
+      "goal_mV_V": 50.0
+    },
+    {
+      "silicon_nm": 16,
+      "h_nm": 0.25,
+      "minimum_length_nm": 48.352589988006564,
+      "dibl_mV_V": 49.99324287231215,
+      "goal_mV_V": 50.0
+    }
+  ],
+  "screening": {
+    "fit_interval_nm": [
+      15,
+      45
+    ],
+    "fitted_length_nm": 6.308373775368985,
+    "layered_eigenmode_length_nm": 6.305034354718814,
+    "parabolic_estimate_nm": 5.477225575051661,
+    "relative_fit_error": 0.0005296435296455737,
+    "relative_parabolic_error": -0.13129330200201117
+  },
+  "scope": "Fixed-charge fully depleted electrostatics; barrier-defined threshold; no drain-current model or experimental data."
+}
